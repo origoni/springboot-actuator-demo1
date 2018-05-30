@@ -44,3 +44,15 @@ intellij : Preferences -> Editor -> Code Style > Formatter Control > Enable form
 - spring-boot-starter-actuator
 - spring-boot-admin-starter-server
 - spring-boot-admin-starter-client
+
+### Using Jolokia for JMX over HTTP
+```
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.jolokia</groupId>
+    <artifactId>jolokia-core</artifactId>
+</dependency>
+```
